@@ -3540,7 +3540,6 @@
                         "  exit;",
                         "}",
                         "if(buy_count > 0) {",
-                        "  tstr2 = '</color>' + CT('Script.Mod_ExpBK.PurchaseTerminalDialog.SetGoodsQuantity');",
                         "  DChange(9);",
                         "  exit;",
                         "}"
@@ -3573,7 +3572,6 @@
                         "tstr4 = '</color>' + CT('Script.Mod_ExpBK.PurchaseTerminalDialog.EquipmentPurchase');",
                         "tstr5 = '</color>' + CT('Script.Mod_ExpBK.PurchaseTerminalDialog.EquipmentPurchaseBlocked');",
                         "tstr6 = '</color>' + CT('Script.Mod_ExpBK.PurchaseTerminalDialog.LeaveTerminal');",
-                        "tstr1 = '</color>' + Format(CT('Script.Mod_ExpBK.PurchaseTerminalDialog.Intro'), '<Commission'+'>', '' + round((cur_commission - 1.0) * 100.0) + '%');",
                         "DChange(12);",
                         "exit;"
                     ]
@@ -3838,7 +3836,6 @@
                         "                               '<GoodsList'+'>', tstr1,",
                         "                               '<Commission'+'>', '<color=0,50,200>' + round((cur_commission - 1.0) * 100.0) + '%</color>',",
                         "                               '');",
-                        "tstr1 = tstr1 + '<color=255,0,0>' + type_name[i + 1] + ':</color>' + Format('<td=155'+'>') + temp_str_2 + Format('<td=225'+'>') + temp_str_3 + '<color=120,120,120>' + temp_str_4 + '</color>' + Format('<br>');",
                         "DChange(8);",
                         "exit;"
                     ]
@@ -3921,7 +3918,6 @@
                         "    InterfaceState('RuinsTalk', 'PM_EndTurn', 1);",
                         "    InterfaceState('RuinsTalk', 'RT_EndTurn_Block', 0);",
                         "}",
-                        "tstr1 = '</color>' + CT('Script.Mod_ExpBK.PurchaseTerminalDialog.EquipmentOrderCanceled');",
                         "DChange(24);",
                         "exit;"
                     ]
@@ -4273,7 +4269,6 @@
                         "    tstr1 = CT('Script.Mod_ExpBK.Code.AlasRangerTheCraftsmenHaveNothingToRepai');",
                         "    tstr2 = CT('Script.Mod_ExpBK.Code.TooBad');",
                         "}",
-                        "tstr1 = CT('Script.Mod_ExpBK.Code.AlasRangerTheCraftsmenHaveNothingToRepai');",
                         "DChange(66);",
                         "exit;"
                     ]
@@ -4450,7 +4445,6 @@
                         "  tstr3 = '</color>' + CT('FormRuins.BK.TakeDebt.PlayerOkAveMoney');",
                         "  tstr4 = '</color>' + CT('FormRuins.BK.TakeDebt.PlayerOkMaxMoney');",
                         "  tstr5 = '</color>' + CT('FormRuins.BK.TakeDebt.PlayerOkMinMoney');",
-                        "  tstr1 = '</color>' + Format(CT('FormRuins.BK.TakeDebt.BK'),'<Player'+'>',Name(Player()),'<Percent'+'>',PlayerDepositPercent(),'<MaxMoney'+'>',temp_int,'<MinDay'+'>',tint1,'<MaxMoneyAdd'+'>',temp_int_3,'<AveMoney'+'>',temp_int_1,'<AveDay'+'>',tint2,'<AveMoneyAdd'+'>',temp_int_4,'<MinMoney'+'>',temp_int_2,'<MaxDay'+'>',tint3,'<MinMoneyAdd'+'>',temp_int_5);",
                         "  DChange(86);",
                         "  exit;",
                         "}",
@@ -4484,7 +4478,6 @@
                         "  tstr3 = '</color>' + Format(CT('FormRuins.BK.Deposit.PlayerOkAveMoney'),'<AveMoney'+'>',temp_int_3);",
                         "  tstr4 = '</color>' + Format(CT('FormRuins.BK.Deposit.PlayerOkMaxMoney'),'<MaxMoney'+'>',temp_int_2);",
                         "  tstr5 = '</color>' + Format(CT('FormRuins.BK.Deposit.PlayerOkMinMoney'),'<MinMoney'+'>',temp_int_1);",
-                        "  tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BK'),'<Player'+'>',Name(Player()),'<Percent'+'>',DepositPercentText());",
                         "  DChange(84);",
                         "  exit;",
                         "}"
@@ -4507,7 +4500,6 @@
                         "  ",
                         "  tstr1 = '</color>' + CT('FormRuins.BK.RetDeposit.BK');",
                         "  tstr2 = '</color>' + CT('Script.Mod_ExpBK.ReturnToTheChoiceOfServices');",
-                        "  tstr1 = '</color>' + CT('FormRuins.BK.RetDeposit.BK');",
                         "  DChange(79);",
                         "  exit;",
                         "}",
@@ -4532,7 +4524,6 @@
                         "  tstr2 = '</color>' + CT('FormRuins.BK.Trade.PlayerNo');",
                         "  tstr3 = '</color>' + CT('FormRuins.BK.Trade.PlayerOkAveMoney');",
                         "  tstr4 = '</color>' + CT('FormRuins.BK.Trade.PlayerOkMaxMoney');",
-                        "  tstr1 = '</color>' + Format(CT('FormRuins.BK.Trade.BK'),'<BK'+'>',Name(StarRuins(Player())),'<Percent'+'>',,'<NeaMoney'+'>',,'<FarMoney'+'>',);",
                         "  DChange(88);",
                         "  exit;",
                         "}",
@@ -4759,7 +4750,6 @@
                         "  tstr5 = '</color>' + Format(CT('FormRuins.BK.Policy.BKAfterAsk'),'<Player'+'>',Name(Player()));",
                         "  tstr6 = '</color>' + CT('FormRuins.BK.Policy.PlayerOk7');",
                         "  temp_str = '</color>' + CT('FormRuins.BK.Policy.PlayerOk10');",
-                        "  tstr1 = '</color>' + Format(CT('FormRuins.BK.Policy.BK'),'<cost5'+'>',temp_int_1,'<cost7'+'>',temp_int_2,'<cost10'+'>',temp_int_3);",
                         "  DChange(80);",
                         "  exit;",
                         "}",
@@ -4935,7 +4925,6 @@
                         "if(!total_offers) {",
                         "    tstr1 = tstr1 + Format('<br>') + '</color>' + CT('Invests.Stations.Divide') + Format('<br>') + '</color>' + CT('Invests.Stations.NoBase');",
                         "}",
-                        "tstr1 = tstr1 + Format('<br>') + '</color>' + CT('Invests.Stations.Divide') + Format('<br>') + '</color>' + CT('Invests.Stations.NoBase');",
                         "DChange(95);",
                         "exit;"
                     ]
@@ -6977,7 +6966,6 @@
                         "                               '<GoodsList'+'>', tstr1,",
                         "                               '<Commission'+'>', '<color=0,50,200>' + round((cur_commission - 1.0) * 100.0) + '%</color>',",
                         "                               '');",
-                        "tstr1 = tstr1 + '<color=255,0,0>' + type_name[i + 1] + ':</color>' + Format('<td=155'+'>') + temp_str_2 + Format('<td=225'+'>') + temp_str_3 + '<color=120,120,120>' + temp_str_4 + '</color>' + Format('<br>');",
                         "DChange(8);",
                         "exit;"
                     ]
@@ -8152,7 +8140,6 @@
                         "    tstr1 = CT('Script.Mod_ExpBK.Code.AlasRangerTheCraftsmenHaveNothingToRepai');",
                         "    tstr2 = CT('Script.Mod_ExpBK.Code.TooBad');",
                         "}",
-                        "tstr1 = CT('Script.Mod_ExpBK.Code.AlasRangerTheCraftsmenHaveNothingToRepai');",
                         "DChange(66);",
                         "exit;"
                     ]
@@ -8187,7 +8174,6 @@
                         "ShipMoney(Player(),ShipMoney(Player())-temp_int_1);",
                         "Sound('Sound.Buy');",
                         "PlayerMedPolicy(365*5);",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Policy.BKAfterOk'),'<Player'+'>',Name(Player()));",
                         "DChange(82);",
                         "exit;"
                     ]
@@ -8218,7 +8204,6 @@
                     [
                         "tstr1 = '</color>' + Format(CT('FormRuins.BK.Policy.BKAfterNo'),'<CurYear'+'>',GameDateTxtByTurn(CurTurn()),'<Player'+'>',Name(Player()));",
                         "tstr2 = '</color>' + CT('Script.Mod_ExpBK.ReturnToTheChoiceOfServices');",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Policy.BKAfterNo'),'<CurYear'+'>',GameDateTxtByTurn(CurTurn()),'<Player'+'>',Name(Player()));",
                         "DChange(83);",
                         "exit;"
                     ]
@@ -8253,7 +8238,6 @@
                         "ShipMoney(Player(),ShipMoney(Player())-temp_int_2);",
                         "Sound('Sound.Buy');",
                         "PlayerMedPolicy(365*7);",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Policy.BKAfterOk'),'<Player'+'>',Name(Player()));",
                         "DChange(82);",
                         "exit;"
                     ]
@@ -8274,7 +8258,6 @@
                         "ShipMoney(Player(),ShipMoney(Player())-temp_int_3);",
                         "Sound('Sound.Buy');",
                         "PlayerMedPolicy(365*10);",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Policy.BKAfterOk'),'<Player'+'>',Name(Player()));",
                         "DChange(82);",
                         "exit;"
                     ]
@@ -8299,7 +8282,6 @@
                         "PlayerDeposit(temp_int_3);",
                         "PlayerDepositDate(CurTurn());",
                         "PlayerDepositDay(0);",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BKAfterOk'),'<Player'+'>',Name(Player()),'<SendMoney'+'>',temp_int_3,'<Percent'+'>',percent);",
                         "DChange(85);",
                         "exit;"
                     ]
@@ -8324,7 +8306,6 @@
                         "PlayerDeposit(temp_int_2);",
                         "PlayerDepositDate(CurTurn());",
                         "PlayerDepositDay(0);",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BKAfterOk'),'<Player'+'>',Name(Player()),'<SendMoney'+'>',temp_int_2,'<Percent'+'>',percent);",
                         "DChange(85);",
                         "exit;"
                     ]
@@ -8349,7 +8330,6 @@
                         "PlayerDeposit(temp_int_1);",
                         "PlayerDepositDate(CurTurn());",
                         "PlayerDepositDay(0);",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BKAfterOk'),'<Player'+'>',Name(Player()),'<SendMoney'+'>',temp_int_1,'<Percent'+'>',percent);",
                         "DChange(85);",
                         "exit;"
                     ]
@@ -8390,7 +8370,6 @@
                         "PlayerDebtCnt(0);",
                         "",
                         "DebtDays = tint1;",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BKAfterOk'),'<Player'+'>',Name(Player()),'<SendMoney'+'>',temp_int_2,'<DebtMoney'+'>',temp_int_2+temp_int_5,'<Percent'+'>',PlayerDepositPercent());",
                         "DChange(87);",
                         "exit;"
                     ]
@@ -8417,7 +8396,6 @@
                         "PlayerDebtCnt(0);",
                         "",
                         "DebtDays = tint3;",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BKAfterOk'),'<Player'+'>',Name(Player()),'<SendMoney'+'>',temp_int,'<DebtMoney'+'>',temp_int+temp_int_3,'<Percent'+'>',PlayerDepositPercent());",
                         "DChange(87);",
                         "exit;"
                     ]
@@ -8444,7 +8422,6 @@
                         "PlayerDebtCnt(0);",
                         "",
                         "DebtDays = tint2;",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Deposit.BKAfterOk'),'<Player'+'>',Name(Player()),'<SendMoney'+'>',temp_int_1,'<DebtMoney'+'>',temp_int_1+temp_int_4,'<Percent'+'>',PlayerDepositPercent());",
                         "DChange(87);",
                         "exit;"
                     ]
@@ -8505,7 +8482,6 @@
                     [
                         "tstr1 = '</color>' + Format(CT('FormRuins.BK.Trade.BKAfterOk'),'<Player'+'>',Name(Player()));",
                         "tstr2 = '</color>' + CT('Script.Mod_ExpBK.ReturnToTheChoiceOfServices');",
-                        "tstr1 = '</color>' + Format(CT('FormRuins.BK.Trade.BKAfterOk'),'<Player'+'>',Name(Player()));",
                         "DChange(89);",
                         "exit;"
                     ]
