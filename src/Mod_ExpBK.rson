@@ -1730,7 +1730,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 178,
-                    "Msg": "<t_Msg_SoRightNowWeCanIssueYouTheShizaGoldCredi>",
+                    "Msg": "<t_Msg_SoRightNowWeCanIssueYouTheMadmanCardCredi>",
                     "DMsg.Num": "34"
                 },
                 {
@@ -2987,7 +2987,7 @@
                         "t_Msg_SelectedPlanetInhabitingRaceCurrentAttit = CT('Script.Mod_ExpBK.Msg.SelectedPlanetInhabitingRaceCurrentAttit');",
                         "t_Msg_ExcellentTheMoneyHasAlreadyBeenTransferr = CT('Script.Mod_ExpBK.Msg.ExcellentTheMoneyHasAlreadyBeenTransferr');",
                         "t_Msg_SoYesRangerAtTheMomentWeCanCarryOutTheBa = CT('Script.Mod_ExpBK.Msg.SoYesRangerAtTheMomentWeCanCarryOutTheBa');",
-                        "t_Msg_SoRightNowWeCanIssueYouTheShizaGoldCredi = CT('Script.Mod_ExpBK.Msg.SoRightNowWeCanIssueYouTheShizaGoldCredi');",
+                        "t_Msg_SoRightNowWeCanIssueYouTheMadmanCardCredi = CT('Script.Mod_ExpBK.Msg.SoRightNowWeCanIssueYouTheMadmanCardCredi');",
                         "t_Msg_SoTheCurrentStateOfTheCardBalanceCrWhatW = CT('Script.Mod_ExpBK.Msg.SoTheCurrentStateOfTheCardBalanceCrWhatW');",
                         "t_Msg_WonderfulTheCreditCardHasAlreadyBeenIssu = CT('Script.Mod_ExpBK.Msg.WonderfulTheCreditCardHasAlreadyBeenIssu');",
                         "t_Msg_ExcellentAllTheNecessaryOperationsHaveAl = CT('Script.Mod_ExpBK.Msg.ExcellentAllTheNecessaryOperationsHaveAl');",
@@ -11240,7 +11240,7 @@
                 },
                 {
                     "Type": "TVar",
-                    "Name": "t_Msg_SoRightNowWeCanIssueYouTheShizaGoldCredi",
+                    "Name": "t_Msg_SoRightNowWeCanIssueYouTheMadmanCardCredi",
                     "Pos.x": 0,
                     "Pos.y": 0,
                     "Parent": -1,
