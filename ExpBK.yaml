@@ -1,0 +1,56 @@
+mod: ExpBK
+
+# public — keys match ModuleInfo.txt
+info:
+  Name: ExpBK
+  Author: "Huk, Klaxons"
+  Conflict: ""
+  Dependence: UtilityFunctionsPack
+  Priority: 1
+  Section: Разное
+  SectionEng: Miscellaneous
+  Languages: Rus,Eng
+  SmallDescription: |-
+    Расширяет возможности бизнес-центров
+    (Мод можно <color=150,0,15>подключать</color>/<color=150,0,15>отключать</color> в течение партии)
+  SmallDescriptionEng: |-
+    <color=250,20,20>Warning! Untranslated staff!</color> Expands business center capabilities
+  FullDescription: |-
+    <color=0,50,200>Расширение возможностей БЦ:</color>
+    - У игрока появляется возможность приобрести торговую лицензию
+    - Для приобретения (или повторного приобретения) торговой лицензии, торговый рейтинг игрока должен составлять не менее 30%, однако при её продлении (доступно за месяц до истечения срока действия) данное требование не предъявляется
+    - Торговая лицензия увеличивает опыт, получаемый за любые торговые операции (при 100% торговом рейтинге получаемый опыт увеличивается более чем в 4 раза)
+    - Торговая лицензия открывает доступ к удалённой закупке товаров (взимается комиссия) на коалиционных и пиратских планетах и станциях (на станциях только при условии подключения мода <color=0,50,200>EvoFairTrade</color>) через терминалы расположенные на БЦ, либо через корабельный мостик
+    - Также торговая лицензия открывает доступ к удалённой закупке оборудования на коалиционных и пиратских планетах и станциях, аналогично закупке товаров
+    - Через корабельный мостик можно удалённо погашать кредитную задолженность на любую оставшуюся сумму (комиссия 5%)
+    - Через корабельный мостик можно пополнять или снимать средства со своего депозитного счёта (комиссия 5%)
+    - В настройках корабельного мостика можно включить удобный вывод всех галактических торговых новостей прямо на общую панель уведомлений
+    <br>
+    <color=0,50,200>Прочие улучшения:</color>
+    - Снято раздражающее ограничение на приобретение оборудования, которое не влезает в трюм игрока по весу
+  FullDescriptionEng: |-
+    <color=0,50,200>Expanding BC capabilities:</color>
+    — The player gets the opportunity to purchase a trade license
+    — To acquire (or reacquire) a trading license, a player must have a trading rating of at least 30%, but this requirement is not required for renewal (available one month prior to expiration)
+    — Trade license increases the experience received for any trade operations (at 100% trade rating the received experience increases more than 4 times)
+    — A trade license provides access to the remote purchase of goods (a commission is charged) on coalition and pirate planets and stations (at stations only if the <color=0,50,200>EvoFairTrade</color> mod is connected) through terminals located on the BC, or through a ship's bridge
+    — Also, a trade license provides access to remote purchase of equipment on coalition and pirate planets and stations, similar to the purchase of goods
+    — Through Ship Bridge, you can remotely pay off credit debt for any outstanding amount (5% fee)
+    — Through the ship's bridge you can deposit or withdraw funds from your deposit account (5% commission)
+    — In the ship bridge settings, you can enable the convenient display of all galactic trade news directly to the general notification panel
+    <br>
+    <color=0,50,200>Other improvements:</color>
+    — The annoying restriction on purchasing equipment that does not fit into the player's cargo bay by weight has been removed
+
+# public — the sources this mod is based on / derived from
+based_on:
+  - source: 🏛️ https://github.com/space-rangers-mods-museum/ExpBK__redux
+    note: ExpBK — Huk, Klaxons; the REDUX edition of the pack, the newest of the two shipped builds
+
+# public — what this workshop edition changed relative to its source
+changes:
+  - "Completed the English `CFG/Eng/Lang.dat`: it was a stale translation of an older build (78 of the 220 `Script.Mod_ExpBK.*` keys, none above 197, plus `Invests.*`, `FormRuins.BK.*PlayerSendMod`, `GalaxyNews.CreateNewObject.*` and the `ShipInfo`/`UselessItems` blocks). Rebuilt it from the current Russian tree — all 424 keys now match Rus 1:1, and every string is translated in the game's voice (see `.ai/kb/translation-style.md`). Without this, the English BC shows the licence offer paragraph but no entry into the services menu, so the licence cannot be bought at all."
+  - "Signed every `CFG/*.dat` (`Eng/Lang.dat` and `Rus/Lang.dat` shipped unsigned; `Main.dat` and `CacheData.dat` already were) — an unsigned `.dat` disqualifies the run from achievements. `Rus/Lang.dat` is the shipped file byte-for-byte, only signed: `srhd.py script decompile --lang-dat` had silently rewritten the staged copy (scrambling the numeric `Script.Mod_ExpBK.<n>` keys), so it was restored from `origin_artefact/unpacked/redux` before signing — see the gotchas on `.ai/kb/workshop/SRHD-XenoModKit.md`."
+  - "SHIPPED — three defects in the author's script are fixed in `src/Mod_ExpBK.rson` (the deposit question printed `95%` instead of `9.5%`; withdrawal was not locked for the first 30 days because the `AddDialogBlock` calls sat after the `InjectAnswer` that adds the button; the deposit-amount labels were crossed against the handlers). The script was rebuilt into `mod/DATA/Script/Mod_ExpBK.scr` — a rebuild renumbers the script's dialog text keys, so `src/Lang_Eng.txt` was re-keyed onto the rebuilt numbering with `srhd.py lang remap` (220 of 221 keys, 11 of them via `--placeholder-tokens planet,star,name,plan,sys,relat,con`) and `src/Lang_Rus.txt` was re-taken as the unpack of the shipped `Rus/Lang.dat`, which the rebuilt SCR matches key for key. Details and the recipe are on `.ai/kb/workshop/ExpBK.md`."
+  - "The Russian `Lang.dat` keeps its shipped content (byte-for-byte, only signed): the rebuilt SCR matches it key for key, so Russian renders as before. The English `Lang.dat` is the only language file whose content changed."
+  - "Deployed under `Miscellaneous` (the workshop rule), the mod's own resource paths were repointed in `src/CacheData.txt`: `Mods\\Expansion\\ExpBK\\…` → `Mods\\Miscellaneous\\ExpBK\\…`. The pack installs the mod at `Mods/Expansion/ExpBK`, the workshop at `Mods/Miscellaneous/ExpBK`, and `CacheData` must name the deployed path or the mod cannot find its own images and script."
