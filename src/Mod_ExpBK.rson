@@ -1390,7 +1390,7 @@
                     "Pos.y": 625,
                     "Parent": -1,
                     "#": 144,
-                    "Msg": "Торговая лицензия упрощает передачу данных по совершённым вами сделкам в центры рейнджеров. При этом, повышение в рейтинге происходит более точно, в зависимости от вашего торгового опыта.\r\nВсего за <temp_int_2> cr, сроком на пять лет.",
+                    "Msg": "<t_Msg_ATradingLicenseSimplifiesTheTransmission>",
                     "DMsg.Num": "0"
                 },
                 {
@@ -1400,7 +1400,7 @@
                     "Pos.y": 625,
                     "Parent": -1,
                     "#": 145,
-                    "Msg": "Отлично! Вы настоящий бизнесмен! Заполните вот эти бланки в трёх экземплярах.\r\nИ не забудьте продлить лицензию, за месяц до окончания срока.",
+                    "Msg": "<t_Msg_ExcellentYouAreARealBusinessmanFillOutTh>",
                     "DMsg.Num": "1"
                 },
                 {
@@ -1410,7 +1410,7 @@
                     "Pos.y": 625,
                     "Parent": -1,
                     "#": 146,
-                    "Msg": "Цена продления составляет <temp_int_2> cr. Продлеваем ещё на 5 лет?",
+                    "Msg": "<t_Msg_TheRenewalPriceIsCrShallWeExtendItForAno>",
                     "DMsg.Num": "2"
                 },
                 {
@@ -1430,7 +1430,7 @@
                     "Pos.y": 625,
                     "Parent": -1,
                     "#": 148,
-                    "Msg": "Состояние счёта: <temp_int_5> cr.\r\nГодовой процент: <temp_str_4>\r\n\r\nВы можете пополнять или снимать средства с вашего счёта со стандартной комиссией в <clr>5%<clrEnd>.\r\n\r\nБаланс счёта не может составлять менее <clr>1000<clrEnd> cr. Минимальная сумма пополнения или снятия средств со счёта составляет <clr>100<clrEnd> cr.\r\n<temp_str_3><temp_str_5>",
+                    "Msg": "<t_Msg_AccountStatusCrAnnualInterestYouCanTopUp>",
                     "DMsg.Num": "4"
                 },
                 {
@@ -1520,7 +1520,7 @@
                     "Pos.y": 650,
                     "Parent": -1,
                     "#": 157,
-                    "Msg": "Ваша задолженность: <PlayerDebt()> cr.\r\nДата погашения: <GameDateTxtByTurn(PlayerDebtDate())> <clr>г.<clrEnd>\r\nОсталось дней: <PlayerDebtDate()-CurTurn()>\r\nКоличество просрочек: <PlayerDebtCnt()>\r\n\r\nЗдесь вы можете погасить кредитную задолженность на любую оставшуюся сумму с комиссией всего в <clr>5%<clrEnd>.\r\n\r\nМинимальная сумма погашения составляет <clr>100<clrEnd> cr.",
+                    "Msg": "<t_Msg_YourDebtCrDueDateYrDaysLeftNumberOfOverd>",
                     "DMsg.Num": "13"
                 },
                 {
@@ -1530,7 +1530,7 @@
                     "Pos.y": 650,
                     "Parent": -1,
                     "#": 158,
-                    "Msg": "Решили вновь приобрести у нас торговую лицензию? На этот раз её цена составит полновесные <temp_int_2> cr.",
+                    "Msg": "<t_Msg_DecidedToBuyOurTradingLicenseAgainThisTi>",
                     "DMsg.Num": "14"
                 },
                 {
@@ -1590,7 +1590,7 @@
                     "Pos.y": 650,
                     "Parent": -1,
                     "#": 164,
-                    "Msg": "А я-то думал, что как бывший лицензированный торговец вы должны прекрасно понимать все преимущества этого документа. Видимо, я в вас ошибся...\r\nЧто ж, желаю и дальше оставаться бывшим, рейнджер <Player>.",
+                    "Msg": "<t_Msg_AndHereIThoughtThatAsAFormerLicensedTrad>",
                     "DMsg.Num": "20"
                 },
                 {
@@ -1600,7 +1600,7 @@
                     "Pos.y": 650,
                     "Parent": -1,
                     "#": 165,
-                    "Msg": "Крайне неразумно с вашей стороны. Срок действия лицензии закончится, и вы всё равно вернётесь к нам за переоформлением, только в тот раз это будет стоить дороже.\r\nПриятной вам потери денег, рейнджер <Player>.",
+                    "Msg": "<t_Msg_ExtremelyUnwiseOfYouTheLicenseWillExpire>",
                     "DMsg.Num": "21"
                 },
                 {
@@ -1640,7 +1640,7 @@
                     "Pos.y": 675,
                     "Parent": -1,
                     "#": 169,
-                    "Msg": "Итак, рейнджер, теперь вы - как будто бы совсем новый пилот в космосе!\r\n\r\nЛетайте и нарабатывайте",
+                    "Msg": "<t_Msg_SoRangerRightNowYouAreAsIfYouWereABrandN>",
                     "DMsg.Num": "25"
                 },
                 {
@@ -1650,7 +1650,7 @@
                     "Pos.y": 675,
                     "Parent": -1,
                     "#": 170,
-                    "Msg": "Итак, вы как член корпуса Рейнджеров имеете право на получение кредита по льготным условиям.\r\nКроме того, мы можем провести обслуживание ваших задолженностей (например, произвести часитичную или полную их оплату) или перекредитовать вас по льготным условиям.\r\nБолее того, из нашего центра вы можете произвести оплату задолженностей перед правительствами различных планет Коалиции.\r\nНу а если вы часто сталкиваетесь с тем, что починка после напряжённого и очень долгого космического боя заставляет вас расстреливать астероиды и подбирать с них минералы, то мы можем предложить вам оформить страховку Экстренной Починки.\r\n\r\nИ всё это - по лучшим условиям в Галактике и с минимальной комиссией за операции!",
+                    "Msg": "<t_Msg_SoAsAMemberOfTheRangersCorpsYouAreEntitl>",
                     "DMsg.Num": "26"
                 },
                 {
@@ -1660,7 +1660,7 @@
                     "Pos.y": 675,
                     "Parent": -1,
                     "#": 171,
-                    "Msg": "Итак, рейнджер...\r\n\r\nНа данный момент ваш долг составляет <temp_int_1> cr.\r\n\r\nЕго вам необходимо вернуть до <temp_str>.\r\n\r\nЖелаете погасить кредит полностью, или частично?",
+                    "Msg": "<t_Msg_SoRangerAtTheMomentYourDebtIsCrYouNeedTo>",
                     "DMsg.Num": "27"
                 },
                 {
@@ -1670,7 +1670,7 @@
                     "Pos.y": 675,
                     "Parent": -1,
                     "#": 172,
-                    "Msg": "Отлично. Ваш кредит полностью погашен.\r\n\r\nЖелаете что-нибудь ещё?",
+                    "Msg": "<t_Msg_ExcellentYourLoanHasBeenFullyRepaidWould>",
                     "DMsg.Num": "28"
                 },
                 {
@@ -1690,7 +1690,7 @@
                     "Pos.y": 675,
                     "Parent": -1,
                     "#": 174,
-                    "Msg": "Выбранная планета: <temp_str>\r\nНаселяющая раса: <temp_str_3>\r\nТекущее отношение: <temp_str_2>\r\n\r\nЖелаете внести какую-нибудь сумму в казну планеты?",
+                    "Msg": "<t_Msg_SelectedPlanetInhabitingRaceCurrentAttit>",
                     "DMsg.Num": "30"
                 },
                 {
@@ -1700,7 +1700,7 @@
                     "Pos.y": 675,
                     "Parent": -1,
                     "#": 175,
-                    "Msg": "Отлично, деньги уже перечислены в счёт правительства <temp_str>.\r\n\r\nРекомендуем вам изучить другие наши услуги. Сеть бизнес-центров может многое, очень многое.",
+                    "Msg": "<t_Msg_ExcellentTheMoneyHasAlreadyBeenTransferr>",
                     "DMsg.Num": "31"
                 },
                 {
@@ -1720,7 +1720,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 177,
-                    "Msg": "Итак...\r\n\r\nДа, рейнджер, в данный момент мы можем провести для вас процедуру оформления банкротства.\r\n\r\nВ неё включаются:\r\n- Изъятие всех средств, включая вклады\r\n- Изъятие всего накопленного имущества\r\n- Закрытие всех задолженностей перед сетью бизнес-центров\r\n- Налаживание отношений с правительствами-участниками Коалиции Разумных Рас\r\n\r\nЖелаете продолжить?",
+                    "Msg": "<t_Msg_SoYesRangerAtTheMomentWeCanCarryOutTheBa>",
                     "DMsg.Num": "33"
                 },
                 {
@@ -1730,7 +1730,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 178,
-                    "Msg": "Итак, прямо сейчас мы можем оформить для вас кредитную карту <clr>\"Шиза Голд\"<clrEnd> по выгодным условиям:\r\n\r\nЛимит снятия с карты: <temp_int_5> cr.\r\nПроцент на долг: <clr>10<clrEnd>% ежемесячно\r\nЛимит операций в день: <clr>5<clrEnd>\r\nМинимальная сумма для проведения операции: <clr>100<clrEnd> cr.\r\nКомиссия за снятие свыше 200 cr. включительно - <clr>2<clrEnd>%\r\n\r\nВас устраивают такие условия?",
+                    "Msg": "<t_Msg_SoRightNowWeCanIssueYouTheShizaGoldCredi>",
                     "DMsg.Num": "34"
                 },
                 {
@@ -1740,7 +1740,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 179,
-                    "Msg": "Итак, текущее состояние карты:\r\n\r\nБаланс: <temp_int_4>/<temp_int_5> cr.\r\n\r\nЧто желаете сделать?",
+                    "Msg": "<t_Msg_SoTheCurrentStateOfTheCardBalanceCrWhatW>",
                     "DMsg.Num": "35"
                 },
                 {
@@ -1750,7 +1750,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 180,
-                    "Msg": "Замечательно.\r\n\r\nКредитная карта уже оформлена на ваше имя и отправлена на ваше именное хранилище.\r\nПользуйтесь на здоровье, рейнджер!",
+                    "Msg": "<t_Msg_WonderfulTheCreditCardHasAlreadyBeenIssu>",
                     "DMsg.Num": "36"
                 },
                 {
@@ -1760,7 +1760,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 181,
-                    "Msg": "Отлично. Все необходимые операции уже завершены.\r\n\r\nБлагодарим за использование наших услуг.",
+                    "Msg": "<t_Msg_ExcellentAllTheNecessaryOperationsHaveAl>",
                     "DMsg.Num": "37"
                 },
                 {
@@ -1770,7 +1770,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 182,
-                    "Msg": "Вы уверены, что хотите отказаться от нашей карты и льготных условий кредитования?\r\n\r\nКонечно, вы всегда можете оформить её заново, но до тех пор вы потеряете доступ к огромному количеству бонусов, которые даёт наша карта!",
+                    "Msg": "<t_Msg_AreYouSureYouWantToGiveUpOurCardAndThePr>",
                     "DMsg.Num": "38"
                 },
                 {
@@ -1780,7 +1780,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 183,
-                    "Msg": "Отлично. Кредитная карта уже изъята у вас и уничтожена.\r\n\r\nРады, что вы воспользовались нашими услугами. Если вас интересует что-то ещё - обращайтесь, мы всегда рады вам помочь.",
+                    "Msg": "<t_Msg_ExcellentTheCreditCardHasAlreadyBeenTake>",
                     "DMsg.Num": "39"
                 },
                 {
@@ -1790,7 +1790,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 184,
-                    "Msg": "Мы координируем целый комплекс различных экономических программ. Это может быть все, что угодно. От помощи изголодавшимся детям, до постройки нового межзвездного флота. Как меценат, вы можете облегчить жизнь другим людям, помочь нашим вооруженным силам, стать всеобщим любимцем. Кроме того, иногда нам поступают заявки на совершенно уникальные мероприятия, поучаствовать в которых сочтёт за честь любой гражданин Коалиции.\r\n\r\nВот какие программы доступны прямо сейчас:\r\n<Inv_str>\r\n---\r\nВыбирайте себе любую программу, не стесняйтесь.",
+                    "Msg": "<t_Msg_WeCoordinateAWholeRangeOfVariousEconomic>",
                     "DMsg.Num": "40"
                 },
                 {
@@ -1800,7 +1800,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 185,
-                    "Msg": "Как это хватит инвестиций? Стыдно, <Player>! На инвестициях стоит наш мир. Чтобы вы делали без нас, без наших дотаций?\r\nПодумайте, может, у вас есть лишние деньги? Возьмите кредит, в конце концов, и накормите голодных!..\r\nВпрочем, я погорячился и приношу извинения. Это ваше личное дело. Мы сами-то благотворительностью не занимаемся, просто ведем бизнес. Вы для нас пример, рейнджер <Player>.",
+                    "Msg": "<t_Msg_WhatDoYouMeanThatSEnoughInvestmentForSha>",
                     "DMsg.Num": "41"
                 },
                 {
@@ -1810,7 +1810,7 @@
                     "Pos.y": 700,
                     "Parent": -1,
                     "#": 186,
-                    "Msg": "---------\r\nКак известно, на данный момент одной из самых уязвимых структур Коалиции - впрочем, как и во все времена - являются гражданские суда. А точнее - торговые.\r\n\r\nЗа счёт инвестированных средств мы могли бы оснастить <clr>5<clrEnd> новеньких транспортов в системе <Name(StarForLiners)>.\r\n\r\nСтоимость оснащения каждого корабля - <GalaxyMoney(3,4)> cr., соответственно, в сумме оплата инициативы выдет в <5*GalaxyMoney(3,4)> cr.\r\n---------",
+                    "Msg": "<t_Msg_AsIsWellKnownAtTheMomentOneOfTheMostVuln>",
                     "DMsg.Num": "42"
                 },
                 {
@@ -1830,7 +1830,7 @@
                     "Pos.y": 725,
                     "Parent": -1,
                     "#": 188,
-                    "Msg": "---------\r\nПрямо сейчас враги атаковали систему <Name(StarForMilitia)>. Правительства системы подняли все имеющиеся силы, но не на всё хватает ресурсов.\r\n\r\nЗа счёт ваших средств мы бы помогли местным правительствам оснастить добровольцем всем необходимым для ведения боевых действий на орбите.\r\n\r\nСтоимость оснащения каждого корабля из планируемых <k> единиц - <GalaxyMoney(2,4)> cr., соответственно, в сумме оплата инициативы выдет в <k*GalaxyMoney(2,4)> cr.\r\n---------",
+                    "Msg": "<t_Msg_RightNowEnemiesHaveAttackedTheStarSystem>",
                     "DMsg.Num": "44"
                 },
                 {
@@ -1880,7 +1880,7 @@
                     "Pos.y": 725,
                     "Parent": -1,
                     "#": 193,
-                    "Msg": "---------\r\nКонечно, дозакупка военного флота - хорошая инициатива, но когда её бывает мало? Вот и правительства системы <Name(StarForWarr)> запросили у нас возможность разместить их просьбу профинансировать строительство крупного военног флота.\r\n\r\nВсего, согласно контракту, будет собрано <clr>10<clrEnd> пилотов, которые тут же примутся за патрулирование системы.\r\n\r\nСтоимость оснащения каждого корабля - <GalaxyMoney(3,4)> cr., соответственно, в сумме оплата инициативы выдет в <10*GalaxyMoney(3,4)> cr.\r\n---------",
+                    "Msg": "<t_Msg_OfCourseBuyingUpMoreMilitaryFleetIsAGood>",
                     "DMsg.Num": "49"
                 },
                 {
@@ -1890,7 +1890,7 @@
                     "Pos.y": 725,
                     "Parent": -1,
                     "#": 194,
-                    "Msg": "---------\r\nНемаловажную часть оборонительного ресурса флота Коалиции составляют крупные корабли - <clr>линкоры<clrEnd>, которые обычно выполняют роль <clr>флагманов<clrEnd>. Каждый такой корабль оснащён по последнему слову техники, имеет особые возможности и колоссальную огневую мощь. Один такой КВСМК планирует построить в системе <Name(StarForFlagship)>. Согласно плану, строительство корабля должно начаться через пару лет, но правительства системы обратились к нам с просьбой открыть сбор средств на постройку, чтобы ускорить процесс и поскорее защитить их систему столь могучим кораблём.\r\n\r\nСтоимость постройки и оснащения линкора - <GalaxyMoney(4,4)*3> cr.\r\n---------",
+                    "Msg": "<t_Msg_AConsiderablePartOfTheCoalitionFleetSDef>",
                     "DMsg.Num": "50"
                 },
                 {
@@ -1900,7 +1900,7 @@
                     "Pos.y": 725,
                     "Parent": -1,
                     "#": 195,
-                    "Msg": "---------\r\nНекоторые так называемые \"вольные пилоты\", оказавшиеся волею судеб в портах системы <Name(StarForPirate)>, оказались без средств для покупки нового корабля и оснащения на него. Некоторые круги, заинтересованные в создании конкуренции в сфере транспортных перевозок, готовы закрыть глаза на такие финансовые махинации, и допустить этих пилотов в космопорты.\r\n\r\nВопрос остаётся только за самой покупкой кораблей! Всего за раз удаётся собрать <l> пилотов.\r\n\r\nСтоимость оснащения каждого корабля - <GalaxyMoney(3,4)> cr., соответственно, в сумме оплата инициативы выдет в <l*GalaxyMoney(3,4)> cr.\r\n---------",
+                    "Msg": "<t_Msg_SomeOfTheSoCalledFreelancePilotsWhoByThe>",
                     "DMsg.Num": "51"
                 },
                 {
@@ -1910,7 +1910,7 @@
                     "Pos.y": 725,
                     "Parent": -1,
                     "#": 196,
-                    "Msg": "Несмотря на давнюю историю покорения просторов Рукава, даже на данный момент далеко не все планеты заселены. Увы, это происходит из-за того, что многим из них требуется ресурсоёмкий и очень затратный <clr>терраформинг<clrEnd>. Поэтому для таких проектов привлекаются инвесторы. Приводим список планет, на заселение которых подготавливается группа специалистов:\r\n--------------------\r\n<tstr1>\r\n--------------------\r\n\r\nИтак, каков ваш выбор?",
+                    "Msg": "<t_Msg_DespiteTheLongHistoryOfSettlingTheExpans>",
                     "DMsg.Num": "52"
                 },
                 {
@@ -1960,7 +1960,7 @@
                     "Pos.y": 750,
                     "Parent": -1,
                     "#": 201,
-                    "Msg": "Итак, вы выбрали:\r\n\r\n-------------------\r\nПланета: <Name(tdwd3)>\r\nСистема: <Name(PlanetToStar(tdwd3))>\r\nРаса заселения - <tstr5>\r\n\r\nСрок терраформирования и заселения - <clr>130<clrEnd> + <clr>20<clrEnd> дн.\r\nСтоимость операции - <tint3> cr.\r\n-------------------",
+                    "Msg": "<t_Msg_SoYouHaveChosenPlanetSystemSettlementRac>",
                     "DMsg.Num": "57"
                 },
                 {
@@ -1970,7 +1970,7 @@
                     "Pos.y": 750,
                     "Parent": -1,
                     "#": 202,
-                    "Msg": "Отлично! Мы уже выслали колонизационный караван, и скоро начнётся терраформинг и возведение фундаментов для главных административных и производственных зданий.\r\n\r\nВы увидите уведомления в новостях всех Галактики!",
+                    "Msg": "<t_Msg_ExcellentWeHaveAlreadyDispatchedTheColon>",
                     "DMsg.Num": "58"
                 },
                 {
@@ -1980,7 +1980,7 @@
                     "Pos.y": 750,
                     "Parent": -1,
                     "#": 203,
-                    "Msg": "Многие экономики Коалиции переживают не лучшие времена. Поэтому всегда есть возможность вложить средства в строительство нового завода, или, например, и вовсе помочь правительству планеты провести <clr>индустриализацию<clrEnd> своей экономики.\r\n\r\nИтак, приводим вам список планет, в экономику которых вы могли бы внести вклад.\r\n\r\nСумма взноса - <(GalaxyMoney(4,4)*30)> cr.",
+                    "Msg": "<t_Msg_ManyOfTheCoalitionSEconomiesAreGoingThro_2>",
                     "DMsg.Num": "59"
                 },
                 {
@@ -2000,7 +2000,7 @@
                     "Pos.y": 750,
                     "Parent": -1,
                     "#": 205,
-                    "Msg": "О, конечно, конечно!\r\n\r\nСитуация, когда рейнджер остаётся без каких-либо средств, чтобы починить своё оружие и вновь вступить в бой с захватчиками, не могла и не может огорчать Галактический Совет. После обращения нескольких сенаторов к нашему совету директоров была разработана так называемая \"Страховка Экстренной Починки\".\r\n\r\nОна позволит вам, рейнджер, в любое время получить полный ремонт <color=225,20,20>неисправного</color> оборудования на любой <clr>индустриальной<clrEnd> планете, где обычно размещаются партнёрские мастерские и службы ремонта.\r\n\r\nЕсли вас заинтересовало наше предложение, то у нас есть три тарифа на выбор на <clr>два<clrEnd>:\r\n-----------------------\r\n\"Базовый тариф\"\r\nСтоимость: <clr><(GalaxyMoney(4,4) * 2)><clrEnd>\r\n\r\nДанный тариф позволит вам в срочном порядке восстановить боеспособность корабля\r\n\r\nВосстанавливаем:\r\n<color=225,20,20>Двигатель</color>\r\n<color=225,20,20>Дроида</color>\r\n<color=225,20,20>Все орудия</color>\r\n-----------------------\r\n\"Расширенный тариф\"\r\nСтоимость: <clr><(GalaxyMoney(4,4) * 3)><clrEnd>\r\n\r\nДанный тариф позволит вам в срочном порядке восстановить все защитные и атакующие системы корабля\r\n\r\nВосстанавливаем:\r\n<color=225,20,20>Двигатель</color>\r\n<color=225,20,20>Дроида</color>\r\n<color=225,20,20>Все орудия</color>\r\n<color=225,20,20>Генератор защитного поля</color>\r\n<color=225,20,20>Топливный бак</color>\r\n-----------------------\r\n\"Полный тариф\"\r\nСтоимость: <clr><(GalaxyMoney(4,4) * 5)><clrEnd>\r\n\r\nДанный тариф позволит вам в срочном порядке полностью восстановить ваш корабль\r\n\r\nВосстанавливаем:\r\n<color=225,20,20>Двигатель</color>\r\n<color=225,20,20>Дроида</color>\r\n<color=225,20,20>Все орудия</color>\r\n<color=225,20,20>Генератор защитного поля</color>\r\n<color=225,20,20>Топливный бак</color>\r\n<color=225,20,20>Захват</color>\r\n<color=225,20,20>Сканер</color>\r\n<color=225,20,20>Радар</color>\r\n<color=225,20,20>Все артефакты</color>\r\n<color=225,20,20>Обшивку вашего корпуса</color>, с устранением всех <color=225,20,20>помех</color>.\r\n-----------------------",
+                    "Msg": "<t_Msg_OhOfCourseOfCourseTheSituationWhereARang>",
                     "DMsg.Num": "61"
                 },
                 {
@@ -2010,7 +2010,7 @@
                     "Pos.y": 750,
                     "Parent": -1,
                     "#": 206,
-                    "Msg": "Отличный выбор, рейнджер!\r\n\r\nМы уже оформили на ваше имя страховку \"Экстренная починка\" с выбранным вами пакетом на <clr>два<clrEnd> года.\r\n\r\nБлагодарим за пользование услугами нашей сети!",
+                    "Msg": "<t_Msg_AnExcellentChoiceRangerWeHaveAlreadyIssu>",
                     "DMsg.Num": "62"
                 },
                 {
@@ -2030,7 +2030,7 @@
                     "Pos.y": 750,
                     "Parent": -1,
                     "#": 208,
-                    "Msg": "Стоимость продления страхового полиса на <clr>1<clrEnd> стандартные сутки - <tint1> cr.\r\n\r\nМаксимальный срок продления за одну процедуру - <clr>300<clrEnd> стандартных дней.",
+                    "Msg": "<t_Msg_TheCostOfRenewingTheInsurancePolicyFor1S>",
                     "DMsg.Num": "64"
                 },
                 {
@@ -2060,7 +2060,7 @@
                     "Pos.y": 775,
                     "Parent": -1,
                     "#": 211,
-                    "Msg": "Отлично! Техники уже завершили работы. Принимайте! Всё как будто вчера с конвейера сошло.\r\n\r\nХотите ещё раз воспользоваться услугами мастеров?",
+                    "Msg": "<t_Msg_ExcellentTheTechniciansHaveAlreadyFinish>",
                     "DMsg.Num": "67"
                 },
                 {
@@ -2300,7 +2300,7 @@
                     "Pos.y": 825,
                     "Parent": -1,
                     "#": 235,
-                    "Msg": "---------\r\nПоддержка бедных рейнджеров - одна из первых инициатив, которая возникла после сбора Корпуса Рейнджеров. Данный фонд проводит систематические отчисления на личные счета самых бедных рейнджеров, дабы те могли купить себе хорошее снаряжение и отправиться в поход против врагов Коалиции.\r\n\r\nРазмер отчисления - <2*GalaxyMoney(3,4)> cr.\r\n---------",
+                    "Msg": "<t_Msg_SupportForPoorRangersIsOneOfTheFirstInit>",
                     "DMsg.Num": "91"
                 },
                 {
@@ -2310,7 +2310,7 @@
                     "Pos.y": 825,
                     "Parent": -1,
                     "#": 236,
-                    "Msg": "---------\r\nВо время войны многие семьи теряют на фронте своих близких. Несмотря на добровольный характер участия, некоторые теряют и кормильцев. Да и что там - в любом случае потеря сильно сказывается на любой ячейке общества.\r\n\r\nИменно поэтому КВСМК учредило благотворительную организацию, средства которой используются для оказания поддержки семьям погибших в войнах - с клисанами, доминаторами, пиратами, значения не имеет.\r\n\r\nРазмер отчисления - <3*GalaxyMoney(3,4)> cr.\r\n---------",
+                    "Msg": "<t_Msg_InWartimeManyFamiliesLoseTheirLovedOnesA>",
                     "DMsg.Num": "92"
                 },
                 {
@@ -2971,7 +2971,45 @@
                         "t_Msg_WhatInsuranceOurSystemHasBeenAttackedThe = CT('Script.Mod_ExpBK.Msg.WhatInsuranceOurSystemHasBeenAttackedThe');",
                         "t_Msg_WeThankYouRangerAndSoDoesTheFundForContr = CT('Script.Mod_ExpBK.Msg.WeThankYouRangerAndSoDoesTheFundForContr');",
                         "t_Msg_ThisIsANobleDeedIThinkManyWillAppreciate = CT('Script.Mod_ExpBK.Msg.ThisIsANobleDeedIThinkManyWillAppreciate');",
-                        "RestoreWorldRefs();"
+                        "RestoreWorldRefs();",
+                        "t_Msg_ATradingLicenseSimplifiesTheTransmission = CT('Script.Mod_ExpBK.Msg.ATradingLicenseSimplifiesTheTransmission');",
+                        "t_Msg_ExcellentYouAreARealBusinessmanFillOutTh = CT('Script.Mod_ExpBK.Msg.ExcellentYouAreARealBusinessmanFillOutTh');",
+                        "t_Msg_TheRenewalPriceIsCrShallWeExtendItForAno = CT('Script.Mod_ExpBK.Msg.TheRenewalPriceIsCrShallWeExtendItForAno');",
+                        "t_Msg_AccountStatusCrAnnualInterestYouCanTopUp = CT('Script.Mod_ExpBK.Msg.AccountStatusCrAnnualInterestYouCanTopUp');",
+                        "t_Msg_YourDebtCrDueDateYrDaysLeftNumberOfOverd = CT('Script.Mod_ExpBK.Msg.YourDebtCrDueDateYrDaysLeftNumberOfOverd');",
+                        "t_Msg_DecidedToBuyOurTradingLicenseAgainThisTi = CT('Script.Mod_ExpBK.Msg.DecidedToBuyOurTradingLicenseAgainThisTi');",
+                        "t_Msg_AndHereIThoughtThatAsAFormerLicensedTrad = CT('Script.Mod_ExpBK.Msg.AndHereIThoughtThatAsAFormerLicensedTrad');",
+                        "t_Msg_ExtremelyUnwiseOfYouTheLicenseWillExpire = CT('Script.Mod_ExpBK.Msg.ExtremelyUnwiseOfYouTheLicenseWillExpire');",
+                        "t_Msg_SoRangerRightNowYouAreAsIfYouWereABrandN = CT('Script.Mod_ExpBK.Msg.SoRangerRightNowYouAreAsIfYouWereABrandN');",
+                        "t_Msg_SoAsAMemberOfTheRangersCorpsYouAreEntitl = CT('Script.Mod_ExpBK.Msg.SoAsAMemberOfTheRangersCorpsYouAreEntitl');",
+                        "t_Msg_SoRangerAtTheMomentYourDebtIsCrYouNeedTo = CT('Script.Mod_ExpBK.Msg.SoRangerAtTheMomentYourDebtIsCrYouNeedTo');",
+                        "t_Msg_ExcellentYourLoanHasBeenFullyRepaidWould = CT('Script.Mod_ExpBK.Msg.ExcellentYourLoanHasBeenFullyRepaidWould');",
+                        "t_Msg_SelectedPlanetInhabitingRaceCurrentAttit = CT('Script.Mod_ExpBK.Msg.SelectedPlanetInhabitingRaceCurrentAttit');",
+                        "t_Msg_ExcellentTheMoneyHasAlreadyBeenTransferr = CT('Script.Mod_ExpBK.Msg.ExcellentTheMoneyHasAlreadyBeenTransferr');",
+                        "t_Msg_SoYesRangerAtTheMomentWeCanCarryOutTheBa = CT('Script.Mod_ExpBK.Msg.SoYesRangerAtTheMomentWeCanCarryOutTheBa');",
+                        "t_Msg_SoRightNowWeCanIssueYouTheShizaGoldCredi = CT('Script.Mod_ExpBK.Msg.SoRightNowWeCanIssueYouTheShizaGoldCredi');",
+                        "t_Msg_SoTheCurrentStateOfTheCardBalanceCrWhatW = CT('Script.Mod_ExpBK.Msg.SoTheCurrentStateOfTheCardBalanceCrWhatW');",
+                        "t_Msg_WonderfulTheCreditCardHasAlreadyBeenIssu = CT('Script.Mod_ExpBK.Msg.WonderfulTheCreditCardHasAlreadyBeenIssu');",
+                        "t_Msg_ExcellentAllTheNecessaryOperationsHaveAl = CT('Script.Mod_ExpBK.Msg.ExcellentAllTheNecessaryOperationsHaveAl');",
+                        "t_Msg_AreYouSureYouWantToGiveUpOurCardAndThePr = CT('Script.Mod_ExpBK.Msg.AreYouSureYouWantToGiveUpOurCardAndThePr');",
+                        "t_Msg_ExcellentTheCreditCardHasAlreadyBeenTake = CT('Script.Mod_ExpBK.Msg.ExcellentTheCreditCardHasAlreadyBeenTake');",
+                        "t_Msg_WeCoordinateAWholeRangeOfVariousEconomic = CT('Script.Mod_ExpBK.Msg.WeCoordinateAWholeRangeOfVariousEconomic');",
+                        "t_Msg_WhatDoYouMeanThatSEnoughInvestmentForSha = CT('Script.Mod_ExpBK.Msg.WhatDoYouMeanThatSEnoughInvestmentForSha');",
+                        "t_Msg_AsIsWellKnownAtTheMomentOneOfTheMostVuln = CT('Script.Mod_ExpBK.Msg.AsIsWellKnownAtTheMomentOneOfTheMostVuln');",
+                        "t_Msg_RightNowEnemiesHaveAttackedTheStarSystem = CT('Script.Mod_ExpBK.Msg.RightNowEnemiesHaveAttackedTheStarSystem');",
+                        "t_Msg_OfCourseBuyingUpMoreMilitaryFleetIsAGood = CT('Script.Mod_ExpBK.Msg.OfCourseBuyingUpMoreMilitaryFleetIsAGood');",
+                        "t_Msg_AConsiderablePartOfTheCoalitionFleetSDef = CT('Script.Mod_ExpBK.Msg.AConsiderablePartOfTheCoalitionFleetSDef');",
+                        "t_Msg_SomeOfTheSoCalledFreelancePilotsWhoByThe = CT('Script.Mod_ExpBK.Msg.SomeOfTheSoCalledFreelancePilotsWhoByThe');",
+                        "t_Msg_DespiteTheLongHistoryOfSettlingTheExpans = CT('Script.Mod_ExpBK.Msg.DespiteTheLongHistoryOfSettlingTheExpans');",
+                        "t_Msg_SoYouHaveChosenPlanetSystemSettlementRac = CT('Script.Mod_ExpBK.Msg.SoYouHaveChosenPlanetSystemSettlementRac');",
+                        "t_Msg_ExcellentWeHaveAlreadyDispatchedTheColon = CT('Script.Mod_ExpBK.Msg.ExcellentWeHaveAlreadyDispatchedTheColon');",
+                        "t_Msg_ManyOfTheCoalitionSEconomiesAreGoingThro_2 = CT('Script.Mod_ExpBK.Msg.ManyOfTheCoalitionSEconomiesAreGoingThro_2');",
+                        "t_Msg_OhOfCourseOfCourseTheSituationWhereARang = CT('Script.Mod_ExpBK.Msg.OhOfCourseOfCourseTheSituationWhereARang');",
+                        "t_Msg_AnExcellentChoiceRangerWeHaveAlreadyIssu = CT('Script.Mod_ExpBK.Msg.AnExcellentChoiceRangerWeHaveAlreadyIssu');",
+                        "t_Msg_TheCostOfRenewingTheInsurancePolicyFor1S = CT('Script.Mod_ExpBK.Msg.TheCostOfRenewingTheInsurancePolicyFor1S');",
+                        "t_Msg_ExcellentTheTechniciansHaveAlreadyFinish = CT('Script.Mod_ExpBK.Msg.ExcellentTheTechniciansHaveAlreadyFinish');",
+                        "t_Msg_SupportForPoorRangersIsOneOfTheFirstInit = CT('Script.Mod_ExpBK.Msg.SupportForPoorRangersIsOneOfTheFirstInit');",
+                        "t_Msg_InWartimeManyFamiliesLoseTheirLovedOnesA = CT('Script.Mod_ExpBK.Msg.InWartimeManyFamiliesLoseTheirLovedOnesA');"
                     ]
                 },
                 {
@@ -11033,6 +11071,424 @@
                     "#": 718,
                     "Var.Type": "Dword",
                     "Init": "0",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ATradingLicenseSimplifiesTheTransmission",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 719,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentYouAreARealBusinessmanFillOutTh",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 720,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_TheRenewalPriceIsCrShallWeExtendItForAno",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 721,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_AccountStatusCrAnnualInterestYouCanTopUp",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 722,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_YourDebtCrDueDateYrDaysLeftNumberOfOverd",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 723,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_DecidedToBuyOurTradingLicenseAgainThisTi",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 724,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_AndHereIThoughtThatAsAFormerLicensedTrad",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 725,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExtremelyUnwiseOfYouTheLicenseWillExpire",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 726,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoRangerRightNowYouAreAsIfYouWereABrandN",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 727,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoAsAMemberOfTheRangersCorpsYouAreEntitl",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 728,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoRangerAtTheMomentYourDebtIsCrYouNeedTo",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 729,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentYourLoanHasBeenFullyRepaidWould",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 730,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SelectedPlanetInhabitingRaceCurrentAttit",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 731,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentTheMoneyHasAlreadyBeenTransferr",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 732,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoYesRangerAtTheMomentWeCanCarryOutTheBa",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 733,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoRightNowWeCanIssueYouTheShizaGoldCredi",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 734,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoTheCurrentStateOfTheCardBalanceCrWhatW",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 735,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_WonderfulTheCreditCardHasAlreadyBeenIssu",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 736,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentAllTheNecessaryOperationsHaveAl",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 737,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_AreYouSureYouWantToGiveUpOurCardAndThePr",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 738,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentTheCreditCardHasAlreadyBeenTake",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 739,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_WeCoordinateAWholeRangeOfVariousEconomic",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 740,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_WhatDoYouMeanThatSEnoughInvestmentForSha",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 741,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_AsIsWellKnownAtTheMomentOneOfTheMostVuln",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 742,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_RightNowEnemiesHaveAttackedTheStarSystem",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 743,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_OfCourseBuyingUpMoreMilitaryFleetIsAGood",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 744,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_AConsiderablePartOfTheCoalitionFleetSDef",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 745,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SomeOfTheSoCalledFreelancePilotsWhoByThe",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 746,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_DespiteTheLongHistoryOfSettlingTheExpans",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 747,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SoYouHaveChosenPlanetSystemSettlementRac",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 748,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentWeHaveAlreadyDispatchedTheColon",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 749,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ManyOfTheCoalitionSEconomiesAreGoingThro_2",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 750,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_OhOfCourseOfCourseTheSituationWhereARang",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 751,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_AnExcellentChoiceRangerWeHaveAlreadyIssu",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 752,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_TheCostOfRenewingTheInsurancePolicyFor1S",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 753,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_ExcellentTheTechniciansHaveAlreadyFinish",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 754,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_SupportForPoorRangersIsOneOfTheFirstInit",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 755,
+                    "Var.Type": "Str",
+                    "Init": "",
+                    "Global": false
+                },
+                {
+                    "Type": "TVar",
+                    "Name": "t_Msg_InWartimeManyFamiliesLoseTheirLovedOnesA",
+                    "Pos.x": 0,
+                    "Pos.y": 0,
+                    "Parent": -1,
+                    "#": 756,
+                    "Var.Type": "Str",
+                    "Init": "",
                     "Global": false
                 }
             ]
