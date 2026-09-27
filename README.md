@@ -6,7 +6,7 @@
 
 ### Summary
 
-Warning! Untranslated staff! Expands business center capabilities
+Expands business center capabilities
 
 ---
 
