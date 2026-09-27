@@ -1,7 +1,7 @@
 # 🚀 ExpBK
 
 * **Name:** ExpBK
-* **Author:** Huk, Klaxons
+* **Author:** Huk, Klaxons, ringill
 * **License:** Creative Commons BY-NC-SA 4.0
 
 ### Summary
@@ -13,17 +13,17 @@ Warning! Untranslated staff! Expands business center capabilities
 ## 📖 Description
 
 Expanding BC capabilities:
-— The player gets the opportunity to purchase a trade license
-— To acquire (or reacquire) a trading license, a player must have a trading rating of at least 30%, but this requirement is not required for renewal (available one month prior to expiration)
-— Trade license increases the experience received for any trade operations (at 100% trade rating the received experience increases more than 4 times)
-— A trade license provides access to the remote purchase of goods (a commission is charged) on coalition and pirate planets and stations (at stations only if the EvoFairTrade mod is connected) through terminals located on the BC, or through a ship's bridge
-— Also, a trade license provides access to remote purchase of equipment on coalition and pirate planets and stations, similar to the purchase of goods
-— Through Ship Bridge, you can remotely pay off credit debt for any outstanding amount (5% fee)
-— Through the ship's bridge you can deposit or withdraw funds from your deposit account (5% commission)
-— In the ship bridge settings, you can enable the convenient display of all galactic trade news directly to the general notification panel
+- The player gets the opportunity to purchase a trade license
+- To acquire (or reacquire) a trading license, a player must have a trading rating of at least 30%, but this requirement is not required for renewal (available one month prior to expiration)
+- Trade license increases the experience received for any trade operations (at 100% trade rating the received experience increases more than 4 times)
+- A trade license provides access to the remote purchase of goods (a commission is charged) on coalition and pirate planets and stations (at stations only if the EvoFairTrade mod is connected) through terminals located on the BC, or through a ship's bridge
+- Also, a trade license provides access to remote purchase of equipment on coalition and pirate planets and stations, similar to the purchase of goods
+- Through Ship Bridge, you can remotely pay off credit debt for any outstanding amount (5% fee)
+- Through the ship's bridge you can deposit or withdraw funds from your deposit account (5% commission)
+- In the ship bridge settings, you can enable the convenient display of all galactic trade news directly to the general notification panel
 <br>
 Other improvements:
-— The annoying restriction on purchasing equipment that does not fit into the player's cargo bay by weight has been removed
+- The annoying restriction on purchasing equipment that does not fit into the player's cargo bay by weight has been removed
 
 ---
 
