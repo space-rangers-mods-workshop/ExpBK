@@ -3,7 +3,7 @@ mod: ExpBK
 # public — keys match ModuleInfo.txt
 info:
   Name: ExpBK
-  Author: "Huk, Klaxons"
+  Author: "Huk, Klaxons, ringill"
   Conflict: ""
   Dependence: UtilityFunctionsPack
   Priority: 1
